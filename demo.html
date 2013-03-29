@@ -1,0 +1,15 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>	
+<script type="text/javascript" src="jquery.inputtype.js"></script>
+</head>
+<body>
+<input type="text" id="textfield" value="Demo text">
+<input type="button" id="btn" value="Convert to password">
+</body>
+<script type="text/javascript">
+	$('#btn').bind('click',function () {
+	    $('#textfield').inputType({type:'password'});
+	});
+</script>
+</html>
